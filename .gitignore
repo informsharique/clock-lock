@@ -45,3 +45,6 @@ Icon
 *~.nib
 *.moved-aside
 *.log
+
+# Binary files
+*.dmg
