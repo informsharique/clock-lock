@@ -1,0 +1,47 @@
+# Xcode
+#
+# gitignore contributors: goldinry, dtrejo, etc.
+
+# Build artifacts
+build/
+DerivedData/
+*.o
+*.lo
+*.la
+*.so
+*.dylib
+*.a
+*.framework
+*.xctest
+*.app
+*.appex
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode User Data (Local settings, window layout, etc.)
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods (not used here but good to have)
+Pods/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Temporary/Backup files
+*.swp
+*~.nib
+*.moved-aside
+*.log

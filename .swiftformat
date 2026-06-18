@@ -1,0 +1,15 @@
+# Exclude folders
+--exclude build,DerivedData,.build,.swiftpm
+
+# Format rules and arguments
+--indent 4
+--allman false
+--lineaftermarks true
+--typeblanklines remove
+--emptybraces no-space
+--stripunusedargs closure-only
+--ifdef no-indent
+--semicolons inline
+--self remove
+--wraparguments before-first
+--wrapcollections before-first

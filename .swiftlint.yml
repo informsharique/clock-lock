@@ -1,0 +1,42 @@
+# Excluded paths
+excluded:
+  - build/
+  - DerivedData/
+  - .build/
+  - .swiftpm/
+
+# Rules that run by default but should be disabled
+disabled_rules:
+  - todo                       # Allow TODO comments without compiler warnings
+  - force_cast                 # Allow force casting where safe/appropriate
+  - force_try                  # Allow force try where safe/appropriate
+
+# Opt-in rules to enforce stricter/better quality code
+opt_in_rules:
+  - empty_count                # Enforce using isEmpty instead of count == 0
+  - attributes                 # Attributes should be positioned correctly
+  - closure_end_indentation    # Closure end braces should be aligned
+  - fatal_error_message        # fatalError() calls should include a description message
+  - first_where                # Prefer first(where:) over filter().first
+
+# Configure individual rules
+line_length:
+  warning: 140
+  error: 200
+  ignores_urls: true
+  ignores_comments: true
+
+file_length:
+  warning: 600
+  error: 1000
+
+function_body_length:
+  warning: 80
+  error: 120
+
+type_body_length:
+  warning: 300
+  error: 500
+
+vertical_whitespace:
+  max_empty_lines: 2
